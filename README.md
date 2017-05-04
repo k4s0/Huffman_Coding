@@ -10,6 +10,6 @@
     </a>
 </p>
 
-# huffman_De-Encoder
+# Huffman Coding Encoder|Decoder C Program
 
-Simple program that uses Huffman trees to encode/decode files
+Simple program realized in C , that uses Huffman trees to encode/decode files.
