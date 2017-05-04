@@ -6,7 +6,7 @@
         <img src="https://img.shields.io/badge/Verison-1.0-blue.svg">
     </a>
     <a>
-        <img src="https://img.shields.io/badge/License-GPLv3-red.svg?style=flat-square">
+        <img src="https://img.shields.io/badge/License-GPLv3-red.svg">
     </a>
 </p>
 
