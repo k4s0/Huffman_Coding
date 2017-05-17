@@ -2,7 +2,8 @@
 
 ** First release 7/25/2011 made by Dara Hazeghi
 
-** New and improved version (04/05/2017) made by Casini Lorenzo <https://github.com/kaso2mod>
+** New and improved version (04/05/2017) made by Casini Lorenzo 
+<https://github.com/k4s0>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
