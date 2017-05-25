@@ -215,8 +215,7 @@ int ReadBit(FILE *in)
 	return nextbit;
 }
 
-/* decode and return a single character from the input using the given Huffman
-* tree */
+/* decode and return a single character from the input using the given Huffman tree*/
 int DecodeChar(FILE *in, htree *tree)
 {
 	while (tree->left || tree->right)
@@ -229,7 +228,7 @@ int DecodeChar(FILE *in, htree *tree)
 	return tree->letter;
 }
 
-/* decode the Huffman-encoded file in and save the results to out */
+/* decode the Huffman-encoded file in and save the results to output file */
 void Decode(FILE *in, FILE *out)
 {
 	int *frequencies, c;
@@ -244,8 +243,7 @@ void Decode(FILE *in, FILE *out)
 	FreeTree(tree);
 }
 
-/* create a Huffman encoding for the file in and save the encoded version to
-* out */
+/* create a Huffman encoding for the file in and save the encoded version to output file */
 void Encode(FILE *in, FILE *out)
 {
 	int c, frequencies[CHAR_RANGE] = { 0 };
